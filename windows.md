@@ -93,7 +93,7 @@
    - ![](./img/iis-finishing-Installation.png)
    - Thực hiện truy cập trình duyệt, nhập địa chỉ localhost:
    - ![](./img/iis-page.png)
-3. SQL Server 2019 (yêu cầu phải bật được SQL Agents và login được bằng tài khoản "sa")
+3. SQL Server (yêu cầu phải bật được SQL Agents và login được bằng tài khoản "sa")
 - Truy cập trang https://www.microsoft.com/en-us/sql-server/sql-server-downloads và tải xuống Phiên bản dành cho nhà phát triển SQL Server 2019.
 - Chạy ứng dụng cài đặt SQL Server 2019:
 - ![](./img/installer-application.png)
