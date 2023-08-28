@@ -3,13 +3,12 @@
 - NGINX thường được sử dụng để phục vụ các trang web và ứng dụng web, cũng như làm máy chủ proxy để điều hướng yêu cầu từ người dùng đến các máy chủ ứng dụng hoặc máy chủ dự án khác trong một môi trường mạng phức tạp.
 - NGINX được thiết kế để xử lý đồng thời một số lượng lớn kết nối với tài nguyên thấp.
 - Với khả năng điều hướng yêu cầu và khả năng xử lý tải trọng lớn, NGINX thường được sử dụng trong các mô hình phân phối tải để đảm bảo rằng các máy chủ ứng dụng được tải cân đối.
-**Một số tính năng của Nginx**
 - Tính năng của máy chủ HTTP:
   - Khả năng xử lý lớn với hơn 10.000 kết nối cùng một thời điểm với bộ nhớ thấp.
   - Phục vụ cho các tập tin tĩnh (static files) và thực hiện lập chỉ mục tập tin.
   - Gia tăng tốc độ reverse proxy thông qua bộ nhớ đệm (cache).
   - Cân bằng quá trình tải đơn giản cùng khả năng chịu lỗi.
-  - Giúp nâng cao tốc độ cùng bộ nhớ đệm của FastCGI, uwsgi, SCGI, và loạt máy chủ memcached.
+  - Giúp nâng cao tốc độ cùng bộ nhớ đệm của FastCGI, uwsgi, SCGI và loạt máy chủ memcached.
   - Hỗ trợ Kiến trúc modular, nâng cao tốc độ nạp trang thông qua nén gzip tự động.
   - Giúp mã hoá SSL cùng TLS.
 - Tính năng máy chủ mail proxy, gồm các phương pháp xác thực như sau:
@@ -23,7 +22,6 @@
 - Apache là chương trình máy chủ HTTP – một chương trình dành cho máy chủ đối thoại qua giao thức HTTP.
 -  Apache chạy trên các hệ điều hành tương tự như Unix, Microsoft Windows, Novell Netware và các hệ điều hành khác. 
 -  Nó có thể được tùy chỉnh cao để đáp ứng nhu cầu của nhiều môi trường khác nhau bằng cách sử dụng các phần mở rộng và mô-đun.
-**Cách hoạt động của Apache Web Server**
 - Apache HTTP Server hoạt động theo mô hình máy chủ-web (web server). Chức năng chính của nó là lắng nghe và xử lý các yêu cầu từ máy tính khác thông qua giao thức HTTP (Hypertext Transfer Protocol). 
 - Cách hoạt động cơ bản của Apache:
   1. **Lắng nghe và chờ yêu cầu**: Khi khởi động Apache, nó sẽ lắng nghe trên một cổng (thường là cổng 80 cho HTTP hoặc 443 cho HTTPS) trên máy chủ. Điều này cho phép nó sẵn sàng để nhận yêu cầu từ trình duyệt web hoặc các ứng dụng khác trên Internet.

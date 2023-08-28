@@ -87,7 +87,7 @@
   - find các file có đuôi .log: ```find . -type f -name "*.log"```
   - find các folder có tên abc: ```find . -type d -name "abc"```
   - find các file có tên abc: ```find . -type f -name "abc"```
-  - find các file có tên abc và thực hiện phần quyền read only cho file: ```find . -type f -name "abc" -exec chmod a-wx {} \;```
+  - find các file có tên abc và thực hiện phần quyền read only cho file: ```find . -type f -name "abc" -exec chmod a=r {} \;```
 ***
 - **cp command**:
   - cp file: ```cp path/to/source_file path/to/destination_directory```

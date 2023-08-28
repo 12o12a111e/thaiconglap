@@ -5,7 +5,7 @@
   - **PTR Record**: là bản ghi DNS được sử dụng để ánh xạ địa chỉ IP thành tên miền.
     - Thường được sử dụng trong các tìm kiếm DNS ngược, trong đó địa chỉ IP được sử dụng để tìm kiếm tên miền liên quan. 
     - Trong ngữ cảnh xác thực thư điện tử, bản ghi PTR chủ yếu được sử dụng để xác minh tính hợp lệ của người gửi thư  
-  - **DKIM (DomainKeys Identìied Mail)**:
+  - **DKIM (DomainKeys Identified Mail)**:
     - Là một phương pháp xác thực thư điện tử giúp xác minh tính xác thực của người gửi và tính tòan vẹn của nội dung thư.
     - Hoạt động bằng cách thêm chữ ký số vào tiêu đề thư.
     - Máy chủ thư gửi tạo ra một chữ ký mật mã duy nhất dựa trên nội dung thư và một số tiêu đề cụ thể. Máy chủ thư của người nhận sau đó sử dụng khóa công khai đã được công bố trong bản ghi DNS của người gửi để xác minh tính hợp lệ của chữ ký

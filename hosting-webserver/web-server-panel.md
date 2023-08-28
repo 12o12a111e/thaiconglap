@@ -89,8 +89,8 @@
    - Chọn tên miền mà muốn cài đặt SSL. => Chọn "Conf".
    - Chọn "SSL".
    - Chọn "Let's Encrypt" và chọn Verification mode (kiểu chứng thực):
-    - File verification: Chứng thực bằng cách tự động tạo tập tin trên máy chủ hiện tại, chọn phương thức này nếu website đang trỏ trực tiếp về IP của máy chủ đang dùng AAPanel.
-    - DNS verification: Chứng thực bằng cách tạo các bản ghi vào DNS của tên miền, nên chọn nếu tên miền đang trỏ về máy chủ khác nhưng cần cài SSL lên AAPanel.
+     - File verification: Chứng thực bằng cách tự động tạo tập tin trên máy chủ hiện tại, chọn phương thức này nếu website đang trỏ trực tiếp về IP của máy chủ đang dùng AAPanel.
+     - DNS verification: Chứng thực bằng cách tạo các bản ghi vào DNS của tên miền, nên chọn nếu tên miền đang trỏ về máy chủ khác nhưng cần cài SSL lên AAPanel.
    - Chọn Domain name cần cài đặt SSL 
    - Chọn "Apply" để aaPanel tự động cài đặt chứng chỉ SSL từ Let's Encrypt cho tên miền được chọn.
    - Sau khi quá trình hoàn thành, sẽ hiển thị thông báo kèm theo thông tin chi tiết về thời hạn của chứng chỉ, cũng như private key và chứng chỉ.

@@ -1,7 +1,7 @@
 - DNS (Domain Name System) là hệ thống phân giải tên miền. Cho phép thiết lập tương ứng giữa địa chỉ IP và tên miền trên Internet.
 - Các loại recored DNS
     - A Record (Address Record): dùng để trỏ tên miền website tới một địa chỉ IP cụ thể . Cú pháp: ```[domain_name] IN A [IP]```
-    - NS Record (Name Server Record): Xác định máy chủ tên miền (name server) có trách nhiệm cung cấp thông tin về tên miền. Cú pháp: ```[domain_name] IN CNAME [domain_server_name]```
+    - NS Record (Name Server Record): Xác định máy chủ tên miền (name server) có trách nhiệm cung cấp thông tin về tên miền. Cú pháp: ```[domain_name] IN NS [domain_server_name]```
     - CNAME Record (Canonical Name Record): quy định một tên miền là bí danh của một tên miền khác, một tên miền chính có thể có nhiều bí danh. Cú pháp: ```[alias_domain_name] IN CNAME [domain_name]```
     - PTR Record (Pointer Record): Được sử dụng trong việc đảo ngược để ánh xạ địa chỉ IP thành tên miền.
     - AAAA Record (IPv6 Address Record): dùng để trỏ tên miền đến địa chỉ IPv6

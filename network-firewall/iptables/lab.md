@@ -6,7 +6,7 @@
    - SPF không duy trì thông tin về các kết nối mạng đã thiết lập.
    - Các Stateless Packet Filtering hoạt động:
      - Thông tin gói tin: SPF kiểm tra các thông tin trong tiêu đề của gói tin, bao gồm địa chỉ nguồn và đích, cổng nguồn và đích cùng với thông tin giao thức như TCP, UDP, ICMP.
-     - So sánh với quy tắc: SPF so sánh các thông tin trong fói tin với các quy tắc đã được định nghĩa trước. Những quy tắc này xác định cách xử lý gói tin dựa trên cách thuộc tính như địa chỉ IP, cổng và giao thức.
+     - So sánh với quy tắc: SPF so sánh các thông tin trong gói tin với các quy tắc đã được định nghĩa trước. Những quy tắc này xác định cách xử lý gói tin dựa trên cách thuộc tính như địa chỉ IP, cổng và giao thức.
      - Hành động: dựa trên kết qủa so sánh, SPF quyết định xem gói tin sẽ được chấp nhận (ACCEPT), từ chối (DROP) hoặc bị từ chối và gửi thông báo lỗi (REJECT).
      - Không duy trì trạng thái: SPF không theo dõi trạng thái của các kết nối mạng, nên SPF không biết gói tin cụ thể có liên quan đến một kết nối mạng nào đó trước đó hay không.
    - Lợi ích của SPF:
@@ -18,7 +18,7 @@
 2. Stateful Packet Filtering
    - Stateful Packet Filtering (SfulPF) là một phương pháp quản lý tường lửa trong mạng máy tính.
    - Quyết định về việc chấp nhận hoặc từ chối các gói tin mạng dựa trên việc theo dõi và duy trì trạng thái của các kết nối mạng.
-   - SfulPF giúp tường lửa hiểu được bốicảnh của các gói tin trong ngữ cảnh của các kết nối mạng từ đó tăng khả năng kiểm soát và bảo mật hệ thống mạng.
+   - SfulPF giúp tường lửa hiểu được bối cảnh của các gói tin trong ngữ cảnh của các kết nối mạng từ đó tăng khả năng kiểm soát và bảo mật hệ thống mạng.
    - Các SfulPF hoạt động:
      - Duy trì trạng thái: theo dõi thông tin về các kết nối mạng đã thiết lập bằng cách lưu trữ thông tin về trạng thái của các gói tin trong các kết nối như TCP, UDP, ICMP.
      - Theo dõi kết nối: theo dõi các thông tin về trạng thái kết nối như trạng thái kết nối hiên tại (đã thiết lập, đang chờ, đã kết thúc), địa chỉ IP nguồn và đích, cổng nguồn và đích, và các thông tin khác.

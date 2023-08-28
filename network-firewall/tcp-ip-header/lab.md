@@ -46,7 +46,7 @@
     - Tùy chọn này mở rộng kích thước của cửa sổ trược bằng cách thêm một giá trị scale factor.
     - Điều này cho phép của sổ trượt lớn hơn với giá trị chỉ số thấp hơn, giúp hỗ trợ các mạng có băng thông lớn.
   - Selective Acknowledgment (SACK):
-    - Tùy chọn này cho phép bến nhận xác định chính xác những gói tin đã nhận được và nhưng gói tin cần được tái gửi.
+    - Tùy chọn này cho phép bên nhận xác định chính xác những gói tin đã nhận được và nhưng gói tin cần được tái gửi.
     - Giúp tăng hiệu suất và độ tin cậy của truyền thông trông trường hợp mất dữ liệu hoặc thứ tự bị đảo lộn.
   - Timestamps:
     - Cho phép đồng bộ hóa thời gian giữa các máy tính trên mạng.
@@ -54,19 +54,19 @@
 ***
 **Lý thuyết IP Header**
 - Header IP (Internet Protocol header) là một phần quan trọng của gói tin mạng trong mô hình TCP/IP.
-- Chứa thông tin cần thiết để địng tuyến và giao tiếp giữa các thiết bị mạng.
+- Chứa thông tin cần thiết để định tuyến và giao tiếp giữa các thiết bị mạng.
 - Header IP thương xuất hiện trong các giao thức mạng như IPv4 hoặc IPv6.
 - Một số thông tin cơ bản về header IP trong giao thức IPv4:
-  - Version ($ bits): 
+  - Version (4 bits): 
     - Là phiên bản của giao thức IP được sử dụng.
     - Trong IPv4 giá trị của trương này luôn là 4.
   - IHL (Internet Header Length, 4 bits): 
-    - Là độ dài cửa header IP, được dô bằng số lượng từ 32 bít (4 bytes) trong header.
+    - Là độ dài của header IP, được đo bằng số lượng từ 32 bít (4 bytes) trong header.
     - Giá trị này xác định độ dài tối thiểu của header IP, thông qua xác định được phần dữ liệu sau header.
   - Type of Service (8 bits):
     - Được thiết kế để quản lý việc ưu tiên giao tiếp và định tuyến trong mạng.
   - Total Length (16 bits):
-    - Tổng độ dài của gói tin, bao gồm cae header và dữ liệu được tính bằng đơn vị byte.
+    - Tổng độ dài của gói tin, bao gồm cả header và dữ liệu được tính bằng đơn vị byte.
   - Identification (16 bits):
     - Được sử dụng để đánh dấu duy nhất cho mỗi gói tin.
     - Hữu ích trong việc xử lý gói tin gửi lại hoặc trong trường hợp gói tin bị chia nhỏ (fragmentation).
@@ -75,7 +75,7 @@
   - Fragment Offset (13 bits):
     - Xác định vị trí của các phần dữ liệu trong gói tin sau khi nó bị chia nhỏ, đơn vị là byte.
   - Time to Live (TLL, 8 bits):
-    - Chỉ đingj số lượng bước lặp tối đa mà gói tin có thể đi qua trước khi bị hủy bỏ.
+    - Chỉ định số lượng bước lặp tối đa mà gói tin có thể đi qua trước khi bị hủy bỏ.
     - Được sử dụng để ngăn chặn các gói tin bị kẹt trong vòng lặp vô tận.
   - Protocol (8 bits):
     - Chỉ ra giao thức lớp trên như TCP, UDP, ICMP sẽ được sử dụng để xử lý dữ liệu sau header IP.

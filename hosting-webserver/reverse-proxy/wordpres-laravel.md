@@ -1174,7 +1174,7 @@
 1.  **Reset passwd mysql user root**
    - Dừng dịch vụ mysql: 
       ~~~
-         service mysql stop
+      service mysql stop
       ~~~
    - Cho phép xác thực "không mật khẩu" tạm thời và bắt đầu dịch vụ:
       ~~~
