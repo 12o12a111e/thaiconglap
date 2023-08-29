@@ -4,7 +4,7 @@
     - Domain Validation 
     - Organization Validation 
     - Extended Validation
-    - Wildcard SSL Certìicate
+    - Wildcard SSL Certificate
     - Subject Alternative Names (SANs SSL)
 ***
   -  CSR (Certìicate Signing Request) là chứa thông tin của chủ sở hữu tên miền được mã hóa, thông tin này được gửi đến nhà cung cấp dịch vụ SSL để xác nhận.

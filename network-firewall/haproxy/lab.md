@@ -29,7 +29,7 @@
     - Backend được cấu hình trong mục backend trong tệp cấu hình của HAProxy. 
     - Backend có thể cài đặt bằng cách:
       - Đặt thuật toán cân bằng tải (round-robin, least-connection,..)
-      - Danh sách các máy chỉ và port có thể nhận request từ HAProxy.
+      - Danh sách các máy chủ và port có thể nhận request từ HAProxy.
     - Một backend có thể chứa một hoặc nhiều server, HAProxy cho phép một server backup chuyên dụng được sử dụng khi các server offline.
   - Frontend:
     - Được sử dụng để định nghĩa cách mà các request điều hướng cho backend.

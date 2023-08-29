@@ -334,7 +334,7 @@ Bài tập 7: Window firewall: Mở port | Giới hạn ip truy cập | Block po
    2. **Mở Command Prompt**: Nhấn `Win + R`, gõ "cmd", và nhấn Enter để mở cửa sổ Command Prompt.
    3. **Thực hiện lệnh tracetcp**: Gõ lệnh sau trong cửa sổ Command Prompt:
       ```
-      tracetcp.exe [host] [port]
+      tracetcp.exe [host]:[port]
       ```
     - Thay `[host]` bằng tên miền hoặc địa chỉ IP của máy chủ muốn kiểm tra, và `[port]` bằng số cổng muốn kiểm tra.
     - Theo dõi lộ trình đến cổng 80 và 443 của Google:

@@ -1,7 +1,7 @@
 **Tìm hiểu về iptables**
 
 1. Stateless Packet Filtering
-   - Stateless Packet Filtering (SPF) là một phương pháp quản lú tường lửa trong hệ thống mạng.
+   - Stateless Packet Filtering (SPF) là một phương pháp quản lý tường lửa trong hệ thống mạng.
    - Trong SPF, quyết định về việc chấp nhận hoặc từ chối các gới tin mạng được thực hiện dựa trên thông tin có sẵn trong từng gói tin độc lập, mà không cần theo dõi trạng thái kết nối của gói tin.
    - SPF không duy trì thông tin về các kết nối mạng đã thiết lập.
    - Các Stateless Packet Filtering hoạt động:
@@ -12,9 +12,9 @@
    - Lợi ích của SPF:
      - Hiệu suất cao: vì SPF không cần duy trì thông tin trạng thái kết nối nên có thể xử lý các gói tin nhanh chóng và hiệu quả.
      - Đơn giản: SPF không đòi hỏi lữu trữ thông tin về trạng thái kết nối làm cho cấu hình tường lửa dễ dàng hơn.
-    - Một số hạn chế:
-      - SPF không thể xác định trạng thái của các kết nối mạng, có thể ảnh hưởng đến khả năng xử lý các giao thức yêu cầu duy trì trạng thái như FTP hoặc VoIP.    
-      - SPF không thể xử lý các kịch bản mạng phức tạp hoặc yêu cầu kiểm tra trạng thái kết nối liên tục.
+   - Một số hạn chế:
+     - SPF không thể xác định trạng thái của các kết nối mạng, có thể ảnh hưởng đến khả năng xử lý các giao thức yêu cầu duy trì trạng thái như FTP hoặc VoIP.    
+     - SPF không thể xử lý các kịch bản mạng phức tạp hoặc yêu cầu kiểm tra trạng thái kết nối liên tục.
 2. Stateful Packet Filtering
    - Stateful Packet Filtering (SfulPF) là một phương pháp quản lý tường lửa trong mạng máy tính.
    - Quyết định về việc chấp nhận hoặc từ chối các gói tin mạng dựa trên việc theo dõi và duy trì trạng thái của các kết nối mạng.

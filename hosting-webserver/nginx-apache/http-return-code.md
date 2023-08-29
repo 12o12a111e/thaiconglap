@@ -19,10 +19,10 @@
 ***
 **Apache là gì**
 - Apache (Apache HTTP Server) là phần mềm web server miễn phí mã nguồn mở, được sáng lập và điều hành bởi Apache Software Foundation.
-- Apache là chương trình máy chủ HTTP – một chương trình dành cho máy chủ đối thoại qua giao thức HTTP.
--  Apache chạy trên các hệ điều hành tương tự như Unix, Microsoft Windows, Novell Netware và các hệ điều hành khác. 
--  Nó có thể được tùy chỉnh cao để đáp ứng nhu cầu của nhiều môi trường khác nhau bằng cách sử dụng các phần mở rộng và mô-đun.
-- Apache HTTP Server hoạt động theo mô hình máy chủ-web (web server). Chức năng chính của nó là lắng nghe và xử lý các yêu cầu từ máy tính khác thông qua giao thức HTTP (Hypertext Transfer Protocol). 
+- Apache chạy trên các hệ điều hành tương tự như Unix, Microsoft Windows, Novell Netware và các hệ điều hành khác. 
+- Nó có thể được tùy chỉnh cao để đáp ứng nhu cầu của nhiều môi trường khác nhau bằng cách sử dụng các phần mở rộng và mô-đun.
+- Apache HTTP Server hoạt động theo mô hình máy chủ-web (web server). 
+- Chức năng chính của nó là lắng nghe và xử lý các yêu cầu từ máy tính khác thông qua giao thức HTTP (Hypertext Transfer Protocol). 
 - Cách hoạt động cơ bản của Apache:
   1. **Lắng nghe và chờ yêu cầu**: Khi khởi động Apache, nó sẽ lắng nghe trên một cổng (thường là cổng 80 cho HTTP hoặc 443 cho HTTPS) trên máy chủ. Điều này cho phép nó sẵn sàng để nhận yêu cầu từ trình duyệt web hoặc các ứng dụng khác trên Internet.
   2. **Nhận yêu cầu HTTP**: Khi một trình duyệt web hoặc ứng dụng khác gửi yêu cầu HTTP đến máy chủ (bằng cách nhập một URL hoặc nhấp vào liên kết), yêu cầu này được gửi đến cổng mà Apache đang lắng nghe.

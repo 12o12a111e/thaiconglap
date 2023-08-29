@@ -13,4 +13,4 @@
   - Tạo các Logical Volume (LV) từ VG đã tạo.
     - Tạo một LV có tên là "my_lv" với kích thước 10GB từ VG "my_vg": ```lvcreate -n my_lv -L 10G my_vg```
   - Nếu muốn mở rộng dung lượng của LV này, có thể sử dụng lệnh lvextend.
-    - Mở rộng LV "my_lv" lên 20GB: ```lvextend -L +10G /dev/my_vg/my_lv```
+    - Mở rộng LV "my_lv" lên 20GB: ```lvextend -L +10G /dev/sdb/my_vg/my_lv```
